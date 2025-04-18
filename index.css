@@ -1,7 +1,7 @@
 h1 {
     border: blue solid 2px;
     background-image: url("https://www.shaktiplasticinds.com/wp-content/uploads/2023/07/Tiles.jpg");
-    position: center;
+    text-align: center;
     color: green;
     font-size: 200px;
 }
