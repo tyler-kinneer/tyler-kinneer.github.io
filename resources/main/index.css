@@ -6,7 +6,12 @@ h1 {
     font-size: 100px;
 }
 
-h2 {
-    container: fit;
-    font-size: 200px;
+#art {
+  width: 100%;
+  height: 25%;
+  background-image: url("https://tyler-kinneer.github.io/project-1/");
+  background-size: fit;
+    /*cover*/
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
