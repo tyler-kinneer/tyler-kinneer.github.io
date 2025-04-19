@@ -9,6 +9,8 @@ h1 {
   #art {
     border: blue solid 2px;
     background-image: url("https://tyler-kinneer.github.io/project-1/");
+    height: 100px
+    width: 100%
     text-align: center;
     color: green;
     font-size: 100px;
