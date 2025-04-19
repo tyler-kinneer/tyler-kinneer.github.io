@@ -6,10 +6,11 @@ h1 {
     font-size: 100px;
 }
 
-  h2#art {
+  #art {
     border: blue solid 2px;
     background-image: url("https://tyler-kinneer.github.io/project-1/");
     text-align: center;
     color: green;
     font-size: 100px;
 }
+
