@@ -15,6 +15,12 @@ h1 {
 }
 */
 
+.art {
+    color: rgba(0,0,0,0.75);
+    border: solid 2px rgba(0,0,0,0.75);
+}
+
 .art:hover {
     color: blue;
+    border: solid 2px blue
 }
