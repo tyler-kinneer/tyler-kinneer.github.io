@@ -11,7 +11,4 @@ h1 {
   height: 25%;
   background-image: url("https://tyler-kinneer.github.io/project-1");
   background-size: cover;
-    /*cover*/
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
