@@ -7,8 +7,9 @@ h1 {
 }
 
   h2#art {
-  width: 100%;
-  height: 25%;
-  background-image: url("https://tyler-kinneer.github.io/project-1");
-  background-size: cover;
+    border: blue solid 2px;
+    background-image: url("https://tyler-kinneer.github.io/project-1/");
+    text-align: center;
+    color: green;
+    font-size: 100px;
 }
