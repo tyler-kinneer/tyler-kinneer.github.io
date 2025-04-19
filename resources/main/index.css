@@ -10,7 +10,7 @@ h1 {
     background-image: url(../images/Dasmotos_snap.png);
     font-size: 200px;
     text-align: left;
-    color: rgba (0,0,0, 75%);
+    color: rgba(0,0,0,0.75);
 }
 
 .art:hover {
