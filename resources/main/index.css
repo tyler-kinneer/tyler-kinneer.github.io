@@ -12,12 +12,12 @@ a.art {
     font-size: small;
 }
 
-a.art:howvr {
-    color: blue;
+a.art:visited {
+    color: red;
 }
 
-a.art:visited {
-    color: red
+a.art:hover {
+    color: blue;
 }
 
 .art_img {
