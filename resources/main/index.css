@@ -3,31 +3,21 @@ h1 {
     background-image: url("https://cdn.prod.website-files.com/611e33de5446a74e18a9324c/6419f8ed14c757e094b277db_porcelain%20tiles%20pros%20and%20cons.webp");
     text-align: center;
     color: rgba(0,0,0,0.7);
-    font-size: 100px;
+    font-size: x-large;
     width: 100%;
 }
 
-/*
-.art {
-    background-image: url(../images/Dasmotos_snap.png);
-    font-size: 200px;
-    text-align: left;
-    color: rgba(0,0,0,0.75);
-}
-
-
-.art {
-    color: rgba(0,0,0,0.75);
-    border: solid 2px rgba(0,0,0,0.75);
-}
-
-.art:hover {
-    color: blue;
-    border: solid 2px blue
-}
-*/
+/*    notes  */
 a.art {
     font-size: small;
+}
+
+a.art:howvr {
+    color: blue;
+}
+
+a.art:visited {
+    color: red
 }
 
 .art_img {
