@@ -1,13 +1,66 @@
-h1 {
-    border: red solid 2px;
-    background-image: url("https://cdn.prod.website-files.com/611e33de5446a74e18a9324c/6419f8ed14c757e094b277db_porcelain%20tiles%20pros%20and%20cons.webp");
-    text-align: center;
-    color: rgba(0,0,0,0.7);
-    font-size: x-large;
-    width: 100%;
+:root {
+    --blue1:#7fbeeb;
+    --blue2:#cbe7ee;
+    --blue3:#cbe7ee80;
+    --purple:#DBD8F0;
+    --lgray:#F5EBE0;
+    --border:#c6c1c1;
+  }
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    margin: 0px;
+    position: absolute;
 }
 
-/*    notes  */
+  /*nav  ------------------------------*/
+#top-site-anchor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.header {
+    position: fixed;
+    z-index: 10;    
+    display: flex;
+    margin: 0px;
+    background-color: blue;
+    border-bottom: 1px seashell solid;
+    width: 100%;
+    height: 69px;
+}
+
+#logo {
+    margin-left: 10px;
+    align-self: center;
+    height: 50px;
+}
+
+.header-right {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.header-right a {
+    padding: inherit;
+    color: seashell;
+
+}
+
+  /*  about me ----------------------*/
+
+  #banner1 {
+    margin-top: 5rem;
+  }
+    
+
+  /*    notes -------------------------- */
 a.art {
     font-size: small;
 }
@@ -25,90 +78,9 @@ a.art:hover {
     width: 45%;
 }
 
-  /*nav*/
+/* images --------------------------------*/
 
-  header {
-    position: fixed;
-    width: 100%;
-    height: 4rem;
-    border-bottom: solid 1px var(--border);
-    background-color: white;
-    z-index: 1;
-    top: 0px;
-  }
-
-  .logo {
-    float: left;
-    position: fixed; 
-    z-index: 2;
-  }
-
-  /*.logo {
-    height: 10%;
-    width: 18%;
-  } */
-
-  .nav, .word{
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-    position: fixed;
-  }
-
-  li  {
-    padding-right: 1.5rem;
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-   @media (max-width: 770px){
-    /*.logo {
-        width: 25%;
-    } */
-
-    .nav, .pic {
-        right: 0px;
-    }
-
-    ul, .pic {
-        height: 10%;
-        width: 30%;
-        display: flex;
-        position: fixed;
-        align-items: center;
-    }
-
-    li, .pic {
-        padding-right: 1.5rem;
-    }
-
-   .word {
-        display: none;
-    } 
-  } 
-
-  @media (max-width: 560px){
-    /* .logo{
-        width: 32%;
-    } */
-
-    ul, .pic {
-        height: 10%;
-        width: 48%;
-    }
-  }
-
-  @media (max-width: 360px){
-    /* .logo {
-        width: 50%;
-    } */
-
-    ul, .pic {
-        height: 10%;
-        width: 50%;
-    }
-  }
+.img {
+    height: auto;
+    width: 10rem;
+}
