@@ -80,6 +80,14 @@ a.art:hover {
 
 /* images --------------------------------*/
 
+.img-container1 {
+    display: flex;
+}
+
+.img-container2 {
+    flex-wrap: wrap;
+}
+
 .img {
     height: auto;
     width: 10rem;
