@@ -42,10 +42,10 @@ a.art:hover {
    /* position: fixed; */
   }
 
-  #logo-img {
+  /*.logo {
     height: 10%;
     width: 18%;
-  }
+  } */
 
   .nav, .word, .pic{
     display: flex;
@@ -69,9 +69,9 @@ a.art:hover {
   } 
 
    @media (max-width: 770px){
-    #logo-img {
+    /*.logo {
         width: 25%;
-    }
+    } */
 
     .nav, .pic {
         right: 0px;
@@ -95,9 +95,9 @@ a.art:hover {
   } 
 
   @media (max-width: 560px){
-    #logo-img {
+    /* .logo{
         width: 32%;
-    }
+    } */
 
     ul, .pic {
         height: 10%;
@@ -106,9 +106,9 @@ a.art:hover {
   }
 
   @media (max-width: 360px){
-    #logo-img {
+    /* .logo {
         width: 50%;
-    }
+    } */
 
     ul, .pic {
         height: 10%;
