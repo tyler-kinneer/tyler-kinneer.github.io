@@ -60,7 +60,8 @@ body {
   }
     
 
-  /*    notes -------------------------- */
+  /*    projects -------------------------- */
+
 a.art {
     font-size: small;
 }
@@ -78,7 +79,7 @@ a.art:hover {
     width: 45%;
 }
 
-/* images --------------------------------*/
+/* skills --------------------------------*/
 
 .skills-container1 {
     display: flex;
@@ -109,7 +110,7 @@ a.art:hover {
     width: 16rem;
 }
 
-skills-word {
+.skills-word {
     width: 15rem;
     display: flex;
     align-items: center;
