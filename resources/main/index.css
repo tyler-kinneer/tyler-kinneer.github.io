@@ -80,15 +80,38 @@ a.art:hover {
 
 /* images --------------------------------*/
 
-.img-container1 {
+.skills-container1 {
     display: flex;
-}
-
-.img-container2 {
     flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
-.img {
+.skills-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills1 {
     height: auto;
     width: 10rem;
+}
+
+.skills2 {
+    height: auto;
+    width: 14rem;
+}
+
+.skills3 {
+    height: auto;
+    width: 16rem;
+}
+
+skills-word {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
