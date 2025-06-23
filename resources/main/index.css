@@ -115,3 +115,11 @@ skills-word {
     align-items: center;
     justify-content: center;
 }
+
+
+/* contacts -----------------------*/
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+}
