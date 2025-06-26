@@ -75,10 +75,66 @@ a.art:hover {
 }
 
 .art_img {
-    height: 45%;
-    width: 45%;
+    height: 100px;
+    width: 500px;
 }
 
+.art_img:hover {
+    opacity: 0.5;
+}
+
+/* mary-go-round --------------------*/
+
+#thing-parent {
+    border: red solid 2px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    overflow-x: scroll;
+    overflow-y: visible;
+    position: relative;
+    column-gap: 3rem;
+}
+
+#thing-1 {
+    color: red;
+}
+
+#thing-2 {
+    color: blue;
+}
+
+#thing-3 {
+    color: green;
+}
+
+#thing-4 {
+    color: purple;
+}
+
+#thing-5 {
+    color: rgb(119, 82, 14)
+}
+
+#things {
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 3vw;
+    padding-bottom: 0px;
+    row-gap: 0px;
+    column-gap: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width:fit-content;
+}
+
+#project1 {
+    border: red solid 2px;
+}
 /* skills --------------------------------*/
 
 .skills-container1 {
