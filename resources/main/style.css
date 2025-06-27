@@ -1,0 +1,269 @@
+:root {
+    --blue1:#7fbeeb;
+    --blue2:#cbe7ee;
+    --blue3:#cbe7ee80;
+    --purple:#DBD8F0;
+    --lgray:#F5EBE0;
+    --border:#c6c1c1;
+  }
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    margin: 0px;
+    position: absolute;
+    padding-left: 5rem;
+    overflow-x: hidden;
+}
+
+
+#sticky-wrap {
+    display: grid;
+    gap: 1rem;
+    height: 500px;
+    grid-template-columns: 3fr 1fr;
+
+    >* {
+    border: 1px solid gray;
+    border-radius: 8px;
+    background: white;
+    }
+}
+ /* aside ---------------- */
+
+ aside {
+    padding: 1rem;
+ }
+
+ .sticky {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: black;
+    position: sticky;
+    top: 4.5rem;
+ }
+  /*nav  ------------------------------*/
+#top-site-anchor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.header {
+    position: fixed;
+    z-index: 10;    
+    display: flex;
+    margin: 0px;
+    background-color: blue;
+    border-bottom: 1px seashell solid;
+    width: 100%;
+    height: 69px;
+}
+
+#logo {
+    margin-left: 10px;
+    align-self: center;
+    height: 50px;
+}
+
+.header-right {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.header-right a {
+    padding: inherit;
+    color: seashell;
+
+}
+
+  /*  about me ----------------------*/
+
+  #banner1 {
+    margin-top: 5rem;
+  }
+    
+
+  /*    projects -------------------------- */
+
+a.art {
+    font-size: small;
+}
+
+a.art:visited {
+    color: red;
+}
+
+a.art:hover {
+    color: blue;
+}
+
+.art_img {
+    height: 100px;
+    width: 500px;
+}
+
+.art_img:hover {
+    opacity: 0.5;
+}
+
+/* mary-go-round --------------------*/
+
+#thing-parent {
+    border: red solid 2px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    overflow-x: scroll;
+    overflow-y: visible;
+    position: relative;
+    column-gap: 3rem;
+}
+
+#thing-1 {
+    color: red;
+}
+
+#thing-2 {
+    color: blue;
+}
+
+#thing-3 {
+    color: green;
+}
+
+#thing-4 {
+    color: purple;
+}
+
+#thing-5 {
+    color: rgb(119, 82, 14)
+}
+
+#things {
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 3vw;
+    padding-bottom: 0px;
+    row-gap: 0px;
+    column-gap: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width:fit-content;
+}
+
+#project1 {
+    border: red solid 2px;
+}
+/* skills --------------------------------*/
+
+.skills-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.skills-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills1 {
+    height: auto;
+    width: 10rem;
+}
+
+.skills2 {
+    height: auto;
+    width: 14rem;
+}
+
+.skills3 {
+    height: auto;
+    width: 16rem;
+}
+
+.skills-word {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* contacts -----------------------*/
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* pop up ----------- */
+
+#button-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background: rgb(95, 132, 255);
+    color: white;
+    border-radius: 32px;
+    position: fixed;
+    left: 8px;
+    bottom: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px;
+    z-index: 9999;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+#contact-img {
+    height: auto;
+    width: 50px;
+}
+
+/*
+#pop-up {
+    position: fixed;
+    left: 92px;
+    bottom: 6px;
+    transform-origin: right bottom;
+    transform: scale(0.7);
+    opacity: 1;
+    transition: 0.25s;
+    visibility: visible;
+    background: rgb(162, 52, 52);
+    z-index: 9999;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 5px, rgba(0, 0, 0, 0.04) 0px 8px 40px, rgba(0, 0, 0, 0.15) 0px 0px 2px;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: rgb(13, 12, 34);
+    width: auto;
+    max-width: 260px;
+    line-height: 1.5;
+    font-family: "Avenir Book", sans-serif;
+}
+
+
+@starting-style {
+    #pop-up {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+    */
