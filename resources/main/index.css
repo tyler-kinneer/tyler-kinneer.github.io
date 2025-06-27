@@ -13,6 +13,7 @@ body {
     opacity: 0.9;
     margin: 0px;
     position: absolute;
+    padding-left: 5rem;
 }
 
   /*nav  ------------------------------*/
@@ -179,4 +180,52 @@ a.art:hover {
 .contacts {
     display: flex;
     justify-content: space-around;
+}
+
+/* pop up ----------- */
+
+#button-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background: rgb(95, 132, 255);
+    color: white;
+    border-radius: 32px;
+    position: fixed;
+    left: 8px;
+    bottom: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px;
+    z-index: 9999;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+#contact-img {
+    height: auto;
+    width: 50px;
+}
+
+#pop-up {
+    position: fixed;
+    left: 92px;
+    bottom: 6px;
+    transform-origin: right bottom;
+    transform: scale(0.7);
+    opacity: 0; 
+    transition: 0.25s;
+    visibility: hidden; 
+    background: rgb(255, 255, 255);
+    z-index: 9999;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 5px, rgba(0, 0, 0, 0.04) 0px 8px 40px, rgba(0, 0, 0, 0.15) 0px 0px 2px;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: rgb(13, 12, 34);
+    width: auto;
+    max-width: 260px;
+    line-height: 1.5;
+    font-family: "Avenir Book", sans-serif;
 }
