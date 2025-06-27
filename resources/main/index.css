@@ -28,17 +28,7 @@ body {
     border: 1px solid gray;
     border-radius: 8px;
     background: white;
-}
-}
-
-header,
-footer {
-    grid-golumn: 1/ -1;
-    height: 100px;
-}
-
-footer {
-    height: 600px;
+    }
 }
  /* aside ---------------- */
 
